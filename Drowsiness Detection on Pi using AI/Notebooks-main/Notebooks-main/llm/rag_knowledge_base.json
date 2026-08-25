@@ -1,0 +1,320 @@
+{
+  "dataset": "drowsy_driving_interventions",
+  "chunks": [
+    {
+      "id": "nhtsa_micro_sleep_001",
+      "source": "https://www.nhtsa.gov/sites/nhtsa.gov/files/documents/12723-drowsy_driving_asleep_at_the_wheel_031917_v4b_tag.pdf",
+      "title": "Micro-sleeps and crash risk",
+      "topic": ["drowsy driving", "fatigue risk", "micro-sleep"],
+      "type": "risk_explanation",
+      "text": "Caffeine alone may not prevent drowsy driving. Severely sleep-deprived drivers may experience micro-sleeps lasting 4-5 seconds. At highway speeds (55 mph), this can result in traveling over 100 yards without awareness, significantly increasing crash risk.",
+      "tags": ["high-risk", "caffeine-limitation", "sleep-deprivation"]
+    },
+    {
+      "id": "nhtsa_intervention_002",
+      "source": "https://www.nhtsa.gov/sites/nhtsa.gov/files/documents/12723-drowsy_driving_asleep_at_the_wheel_031917_v4b_tag.pdf",
+      "title": "Caffeine + 20-minute nap strategy",
+      "topic": ["fatigue management", "countermeasures"],
+      "type": "short_term_intervention",
+      "text": "If you become sleepy while driving, consume one to two cups of coffee and pull over for a 20-minute nap in a safe, well-lit rest area. This combination temporarily improves alertness but is not a substitute for sleep.",
+      "tags": ["nap", "caffeine", "stop-driving"]
+    },
+    {
+      "id": "sleepfoundation_003",
+      "source": "https://www.sleepfoundation.org/drowsy-driving/how-to-stay-awake-tips",
+      "title": "Stop driving when sleepy",
+      "topic": ["driver safety", "fatigue response"],
+      "type": "safety_guideline",
+      "text": "Drivers experiencing drowsiness should pull over as soon as possible into a safe, well-lit location. A 20-minute nap can improve alertness, but continued driving without rest increases crash risk.",
+      "tags": ["stop-driving", "rest-stop", "nap"]
+    },
+    {
+      "id": "gcphn_004",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Caffeine timing and effectiveness",
+      "topic": ["fatigue management", "caffeine physiology"],
+      "type": "mechanism",
+      "text": "Caffeine takes about 15-30 minutes to take effect, with peak alertness occurring around one hour. Effects generally last about five hours, making it useful only as a short-term countermeasure.",
+      "tags": ["caffeine", "timing", "alertness"]
+    },
+    {
+      "id": "mcaa_005",
+      "source": "https://www.mcaa.org/wp-content/uploads/2017/03/SE76PDF.pdf",
+      "title": "Avoid distractions while driving",
+      "topic": ["driving safety", "distraction prevention"],
+      "type": "behavioral_guideline",
+      "text": "Drivers should avoid using mobile phones, adjust controls before driving, and pull over safely if communication or navigation tasks are required. Maintaining full attention reduces crash risk.",
+      "tags": ["distraction", "mobile-phone", "attention"]
+    },
+    {
+      "id": "allstate_006",
+      "source": "https://www.allstate.com/resources/car-insurance/drowsy-driving",
+      "title": "Combined nap and caffeine approach",
+      "topic": ["fatigue management", "countermeasures"],
+      "type": "short_term_intervention",
+      "text": "If drowsiness occurs while driving, pull over safely, drink one to two cups of coffee, and take a brief nap. Caffeine may take around 30 minutes to take effect, so rest is essential.",
+      "tags": ["nap", "caffeine", "rest-stop"]
+    },
+    {
+      "id": "gcphn_commuting_007",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Tips for making commuting safer",
+      "topic": ["commuting safety", "fatigue management"],
+      "type": "preventative_guideline",
+      "text": "To make commuting safer, take public transport if available, move closer to work, or consider riding, running, or walking. Other tactics include carpooling, taking naps, strategically scheduling caffeine, avoiding rushing, not using mobile phones, utilizing two-hourly breaks of 5-10 minutes, and providing dedicated rooms for workers to sleep before driving.",
+      "tags": ["commuting", "carpool", "preventative"]
+    },
+    {
+      "id": "gcphn_power_nap_008",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Power nap benefits and mechanics",
+      "topic": ["fatigue management", "sleep mechanics"],
+      "type": "mechanism",
+      "text": "A power nap of 10 to 30 minutes lets sleepers enjoy the benefits of light sleep without the risk of waking up in the middle of deep sleep or REM sleep, which leaves you feeling groggy and disoriented. While block sleep is most valuable, split sleep or short naps provide a powerful boost to alertness compared to no sleep.",
+      "tags": ["power-nap", "sleep-cycles", "grogginess"]
+    },
+    {
+      "id": "gcphn_high_risk_times_009",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "High-risk commuting environments",
+      "topic": ["risk identification", "driving conditions"],
+      "type": "risk_explanation",
+      "text": "High-risk commuting situations include long drives without a break, driving home after a long shift, driving between midnight and dawn, driving in heavy traffic, long stretches of road with low traffic, and roads with little variation in bearing or outlook.",
+      "tags": ["high-risk-windows", "monotony", "shift-work"]
+    },
+    {
+      "id": "mcaa_device_rules_010",
+      "source": "https://www.mcaa.org/wp-content/uploads/2017/03/SE76PDF.pdf",
+      "title": "In-vehicle device adjustments",
+      "topic": ["distraction prevention", "device safety"],
+      "type": "behavioral_guideline",
+      "text": "Allow voice mail to handle calls and return them when not driving. Never use communication devices that require you to look at them while driving. Make radio adjustments such as volume and station pre-sets before driving. Pull off the road to a safe location before programming a GPS or reading maps and directions.",
+      "tags": ["gps", "radio-presets", "cell-phone"]
+    },
+    {
+      "id": "mcaa_passenger_interaction_011",
+      "source": "https://www.mcaa.org/wp-content/uploads/2017/03/SE76PDF.pdf",
+      "title": "Passenger management and call routing",
+      "topic": ["distraction prevention", "passenger management"],
+      "type": "behavioral_guideline",
+      "text": "When driving with a passenger, have them make and receive necessary calls. If there is more than one passenger, let them interact with each other while you concentrate on driving. Avoid stressful, emotional, or complex calls, especially in difficult traffic situations or bad weather. Keep both hands on the wheel, eyes on the road, and mind on driving.",
+      "tags": ["passengers", "passenger-routing", "cognitive-distraction"]
+    },
+    {
+      "id": "mcaa_hands_free_policy_012",
+      "source": "https://www.mcaa.org/wp-content/uploads/2017/03/SE76PDF.pdf",
+      "title": "Hands-free system considerations",
+      "topic": ["fleet management", "distraction policy"],
+      "type": "behavioral_guideline",
+      "text": "If company policy allows cell phone use while driving, consider requiring hands-free voice-activated systems so drivers do not have to take their eyes off the road. However, using a hands-free device still creates cognitive distraction equivalent to holding a phone, as the human brain is completely incapable of multitasking.",
+      "tags": ["hands-free", "multitasking-myth", "cognitive-load"]
+    },
+    {
+      "id": "ucla_alerting_devices_013",
+      "source": "https://www.uclahealth.org/medical-services/sleep-medicine/patient-resources/patient-education/drowsy-driving",
+      "title": "Limitations of in-car alerting devices and infrastructure",
+      "topic": ["countermeasure evaluation", "infrastructure limitations"],
+      "type": "risk_explanation",
+      "text": "Rumble strips wake a driver losing control, but do not solve drowsiness; drivers are just as likely to drift into another lane as off the road. Alerting devices in cars are still being developed and lack sufficient evidence to prove they reliably work. They do not help drivers get more sleep and could give a false sense of security, causing drivers to trust the device rather than pulling over.",
+      "tags": ["rumble-strips", "alerting-devices", "false-security"]
+    },
+    {
+      "id": "ucla_root_cause_014",
+      "source": "https://www.uclahealth.org/medical-services/sleep-medicine/patient-resources/patient-education/drowsy-driving",
+      "title": "Addressing root clock disruptions",
+      "topic": ["preventative measures", "circadian health"],
+      "type": "preventative_guideline",
+      "text": "For shift workers or frequent travelers experiencing drowsiness, the underlying issue is a disrupted body clock, not just the act of driving. Addressing the root cause through better sleep scheduling, light exposure management, and rest periods will have a more lasting effect than in-car interventions alone.",
+      "tags": ["body-clock", "root-cause", "sleep-scheduling"]
+    },
+    {
+      "id": "colorado_trip_planning_015",
+      "source": "https://dmv.colorado.gov/drowsy-driving-tips",
+      "title": "Long-distance trip planning",
+      "topic": ["trip planning", "fatigue management"],
+      "type": "preventative_guideline",
+      "text": "Plan your trip ahead of time. Know the high-risk driving windows (late afternoon and midnight to 6 a.m.) and try to schedule driving outside of these times where possible. If it is a long-distance trip, ask a friend to join so they can help drive and monitor for signs of drowsy driving.",
+      "tags": ["trip-planning", "driving-windows", "co-pilot"]
+    },
+    {
+      "id": "nhtsa_sleep_priority_016",
+      "source": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+      "title": "Expert sleep recommendations",
+      "topic": ["preventative measures", "sleep benchmarks"],
+      "type": "preventative_guideline",
+      "text": "Getting adequate sleep on a daily basis is the only true way to protect yourself against the risks of driving when drowsy. Experts urge consumers to make it a priority to get seven to eight hours of sleep per night. Before the start of a long family car trip, get a good night's sleep, or you put your entire family and others at risk.",
+      "tags": ["sleep-duration", "family-trips", "healthy-sleep"]
+    },
+    {
+      "id": "nhtsa_teen_vulnerability_017",
+      "source": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+      "title": "Teen driver vulnerability and policies",
+      "topic": ["driver safety", "vulnerable populations"],
+      "type": "preventative_guideline",
+      "text": "Many teens do not get enough sleep at a stage in life when their biological need for sleep increases, making them vulnerable to drowsy-driving crashes. Advise teens to delay driving until well-rested. Graduated driver licensing (GDL) programs restrict nighttime hours for young drivers, typically between 11 p.m. and 5 a.m. Early school start times are widely recognized as a major contributor to teen sleep deprivation.",
+      "tags": ["teen-drivers", "gdl-programs", "school-start-times"]
+    },
+    {
+      "id": "nhtsa_substance_interactions_018",
+      "source": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+      "title": "Alcohol and medication risk amplification",
+      "topic": ["risk factors", "substance interaction"],
+      "type": "risk_explanation",
+      "text": "Avoid drinking any alcohol before driving. Consumption of alcohol interacts with sleepiness to exponentially increase drowsiness and impairment. Always check prescription and over-the-counter medication labels to see if drowsiness could result from their use. If you take medications causing drowsiness, use public transportation when possible.",
+      "tags": ["alcohol", "medication-side-effects", "risk-amplification"]
+    },
+    {
+      "id": "nhtsa_state_education_019",
+      "source": "https://www.nhtsa.gov/sites/nhtsa.gov/files/documents/12723-drowsy_driving_asleep_at_the_wheel_031917_v4b_tag.pdf",
+      "title": "State driver manual integration",
+      "topic": ["public policy", "driver education"],
+      "type": "risk_explanation",
+      "text": "Addressing drowsy driving requires fundamental changes to societal norms. Currently, 47 States and Washington, DC, have information about drowsy driving in their driver's manuals, and 17 States include drowsy-driving education in their driver's education curricula.",
+      "tags": ["driver-manuals", "education", "public-awareness"]
+    },
+    {
+      "id": "nhtsa_infrastructure_costs_020",
+      "source": "https://www.nhtsa.gov/sites/nhtsa.gov/files/documents/12723-drowsy_driving_asleep_at_the_wheel_031917_v4b_tag.pdf",
+      "title": "Infrastructure and ADAS cost-effectiveness",
+      "topic": ["countermeasure evaluation", "infrastructure cost"],
+      "type": "mechanism",
+      "text": "Evaluations indicate rumble strips reduce lane departure crashes by 50 percent or more; installation is inexpensive at $1,000-$5,000 per mile. In-vehicle systems like forward collision warning and automatic braking cut police-reported rear-end crashes in half. Advanced Driver Assistance Systems (ADAS) address the consequences of drowsy driving even when drowsiness itself is not directly detected.",
+      "tags": ["adas", "collision-warning", "infrastructure-cost"]
+    },
+    {
+      "id": "nhtsa_employer_impact_021",
+      "source": "https://www.nhtsa.gov/sites/nhtsa.gov/files/documents/12723-drowsy_driving_asleep_at_the_wheel_031917_v4b_tag.pdf",
+      "title": "Corporate and industrial fatigue costs",
+      "topic": ["occupational hazards", "corporate policy"],
+      "type": "risk_explanation",
+      "text": "Motor vehicle crashes on and off the job cost employers nearly $50 billion in 2013, many of which were due to fatigue. Addressing root causes of sleep restriction can lead to more efficient, safer work practices and less drowsy driving both at work and on the way to and from work.",
+      "tags": ["employer-cost", "industrial-safety", "work-practices"]
+    },
+    {
+      "id": "gcphn_shift_rosters_022",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Industrial shift work management protocols",
+      "topic": ["occupational health", "roster engineering"],
+      "type": "preventative_guideline",
+      "text": "To minimize accident risk: limit consecutive night shifts to four; end night shifts by 8 a.m.; ensure a minimum of 12 hours between consecutive shifts; ensure rosters allow at least two full nights' sleep after the last night shift; allow short naps of no longer than 15-20 minutes if appropriate for the task; and evaluate the necessity of 12-hour night shifts.",
+      "tags": ["roster-design", "night-shift", "shift-intervals"]
+    },
+    {
+      "id": "gcphn_workplace_hazards_023",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Workplace fatigue risk management frameworks",
+      "topic": ["occupational safety", "risk management"],
+      "type": "preventative_guideline",
+      "text": "Managing workplace fatigue involves four steps: (1) identifying factors causing fatigue via consulting workers, examining work practices, and reviewing incident data; (2) assessing risks to determine scale, frequency, and potential harm; (3) controlling risks by eliminating causes at the source, designing rosters carefully, and developing fatigue management policies; (4) reviewing control measures regularly and after any incident.",
+      "tags": ["hazard-identification", "risk-control", "safety-framework"]
+    },
+    {
+      "id": "gcphn_diet_hydration_024",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Nutritional and hydration guidelines for shift workers",
+      "topic": ["preventative measures", "nutrition", "hydration"],
+      "type": "preventative_guideline",
+      "text": "Eat every 4-6 hours when awake. Eat a small meal 1-2 hours before bed to prevent hunger waking. All meals should balance protein and low GI carbohydrates while avoiding high GI foods causing crashes. Night workers are 5 times more likely to get peptic ulcers partly due to eating outside traditional hours. Maintain hydration by drinking mouthfuls of water regularly, as dehydration increases fatigue. Avoid soft drinks, alcohol, and caffeine overloads which act as diuretics.",
+      "tags": ["low-gi", "peptic-ulcers", "hydration", "diuretics"]
+    },
+    {
+      "id": "gcphn_caffeine_strategic_025",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Strategic utilization and tolerance of caffeine",
+      "topic": ["fatigue management", "caffeine physiology"],
+      "type": "preventative_guideline",
+      "text": "Avoid drinking caffeinated drinks when you are not tired, as your body will build tolerance. Avoid large amounts of caffeine first thing in the morning because the alerting effects decline by midday, worsening the afternoon circadian dip. Avoid caffeine a few hours before sleep as it makes falling asleep more difficult. Fluids take at least 15-30 minutes to enter the system.",
+      "tags": ["caffeine-tolerance", "circadian-dip", "metabolism"]
+    },
+    {
+      "id": "gcphn_sleep_disorders_026",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Medical sleep disorders and symptoms",
+      "topic": ["medical conditions", "sleep pathology"],
+      "type": "risk_explanation",
+      "text": "Insomnia affects a third of adults and is common in shift workers. Sleep apnea causes breathing interruptions leading to fragmented, poor-quality sleep and severe daytime drowsiness. Narcolepsy causes sudden sleep attacks. Sleepwalking can be reduced by limiting stress, getting sleep, and avoiding stimulation before bed. See a GP for management.",
+      "tags": ["insomnia", "sleep-apnea", "narcolepsy", "sleepwalking"]
+    },
+    {
+      "id": "gcphn_exercise_stamina_027",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Exercise impacts on chronic fatigue",
+      "topic": ["preventative measures", "exercise science"],
+      "type": "preventative_guideline",
+      "text": "Inactive people complaining of fatigue can increase energy levels by up to 20% and decrease reported fatigue by up to 65% by engaging in regular, low-intensity exercise. Exercise taken 30 to 180 minutes prior to bed can increase the amount of deep restorative sleep obtained.",
+      "tags": ["exercise", "stamina", "restorative-sleep"]
+    },
+    {
+      "id": "gcphn_legal_duties_028",
+      "source": "https://gcphn.org.au/wp-content/uploads/2024/02/Manual-Fatigue-Management-2024.pdf",
+      "title": "Legal health and safety obligations",
+      "topic": ["legal compliance", "workplace law"],
+      "type": "preventative_guideline",
+      "text": "Employers have a primary duty to ensure workers are not exposed to safety risks from fatigue via providing a safe environment. Workers must take reasonable care for their own safety, comply with fatigue policies, and inform managers when fatigued. Managers must develop work schedules that prevent high fatigue, allow recovery, and limit overtime.",
+      "tags": ["legal-duty", "compliance", "overtime-limits"]
+    },
+    {
+      "id": "mcaa_multitasking_029",
+      "source": "https://www.mcaa.org/wp-content/uploads/2017/03/SE76PDF.pdf",
+      "title": "The neurology of multitasking and distraction",
+      "topic": ["cognitive load", "neurobiology"],
+      "type": "mechanism",
+      "text": "The human brain is completely incapable of multitasking. Instead, it switches focus back and forth between tasks. The tenths of a second required for this context switching equate to significantly slower reaction times and much greater distances traveled before being able to react to a situation on the road.",
+      "tags": ["multitasking-myth", "context-switching", "reaction-latency"]
+    },
+    {
+      "id": "mcaa_inattention_blindness_030",
+      "source": "https://www.mcaa.org/wp-content/uploads/2017/03/SE76PDF.pdf",
+      "title": "Cell phone usage and inattention blindness",
+      "topic": ["cognitive load", "distraction mechanism"],
+      "type": "mechanism",
+      "text": "When talking on a cell phone, the cognitive distraction of the conversation will not allow the brain to process everything in the roadway ahead, even if the driver is looking directly at it. This phenomenon is called inattention blindness, where a driver looks but fails to see what is happening.",
+      "tags": ["inattention-blindness", "cognitive-distraction", "cell-phone"]
+    },
+    {
+      "id": "mcaa_distraction_metrics_031",
+      "source": "https://www.mcaa.org/wp-content/uploads/2017/03/SE76PDF.pdf",
+      "title": "Historical metrics of distracted driving",
+      "topic": ["accident statistics", "distraction statistics"],
+      "type": "risk_explanation",
+      "text": "Distracted driving is the diversion of attention away from driving across three categories: Visual (eyes off road), Manual (hands off wheel), and Cognitive (mind off driving). In 2009, over 5,400 people died and 303,000 were injured in crashes linked to distraction. Fatalities associated with distraction increased from 10% in 2005 to 16% in 2009. Drivers under 20 are the most distracted age group.",
+      "tags": ["distraction-categories", "statistics", "youth-drivers"]
+    },
+    {
+      "id": "ucla_alcohol_ratios_032",
+      "source": "https://www.uclahealth.org/medical-services/sleep-medicine/patient-resources/patient-education/drowsy-driving",
+      "title": "Alcohol multiplication effects on tired brains",
+      "topic": ["risk factors", "substance interaction"],
+      "type": "risk_explanation",
+      "text": "One beer has the same impact on a person with four hours of sleep as six beers on a well-rested person. Going 24 hours without sleep is comparable to having a blood-alcohol content of 0.10%, which exceeds the legal driving limit across all 50 states.",
+      "tags": ["alcohol-multiplication", "sleep-deprivation", "impairment"]
+    },
+    {
+      "id": "ucla_post_crash_adrenaline_033",
+      "source": "https://www.uclahealth.org/medical-services/sleep-medicine/patient-resources/patient-education/drowsy-driving",
+      "title": "Adrenaline anomalies in post-crash assessment",
+      "topic": ["crash investigations", "underreporting mechanics"],
+      "type": "risk_explanation",
+      "text": "Drowsy drivers are often highly alert immediately following a crash due to a severe rush of adrenaline, which can cause observers to mistakenly assume the driver was alert beforehand. This phenomenon, along with a driver's reluctance to admit sleepiness to police, contributes significantly to data underreporting.",
+      "tags": ["adrenaline-rush", "post-crash", "underreporting-bias"]
+    },
+    {
+      "id": "ucla_medication_classes_034",
+      "source": "https://www.uclahealth.org/medical-services/sleep-medicine/patient-resources/patient-education/drowsy-driving",
+      "title": "Drowsiness-inducing medical treatments",
+      "topic": ["risk factors", "pharmacology"],
+      "type": "risk_explanation",
+      "text": "Drivers must review side effects of medications before operating a vehicle. Common drowsiness-inducing classes include sleeping pills, narcotic pain pills, certain antidepressants, tranquilizers, some blood-pressure medications, cold or cough tablets, muscle relaxants, and anti-allergy antihistamines.",
+      "tags": ["medications", "antidepressants", "antihistamines", "side-effects"]
+    },
+    {
+      "id": "colorado_risk_multipliers_035",
+      "source": "https://dmv.colorado.gov/drowsy-driving-tips",
+      "title": "Workload multipliers for fatigue accumulation",
+      "topic": ["risk factors", "workload safety"],
+      "type": "risk_explanation",
+      "text": "Working over 60 hours a week increases your risk of drowsy driving by 40%. A tightly packed work schedule or working more than one job where the main role involves shift work drastically amplifies fatigue. Less than 6 hours of sleep triples your risk of falling asleep while driving.",
+      "tags": ["overtime", "dual-employment", "sleep-restriction"]
+    }
+  ]
+}
