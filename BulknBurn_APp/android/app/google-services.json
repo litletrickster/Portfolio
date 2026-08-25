@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1068286289944",
+    "project_id": "bulk-n-burn",
+    "storage_bucket": "bulk-n-burn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068286289944:android:c7f28e15b1d7ad27303b6d",
+        "android_client_info": {
+          "package_name": "com.example.bulk_n_burn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI2AZYgkoK2SQedGekXARlflb8iXw-IJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
